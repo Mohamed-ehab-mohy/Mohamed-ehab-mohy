@@ -1,0 +1,78 @@
+<svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19">
+        <animate attributeName="stop-color" values="#0b0f19;#0d1420;#0b0f19" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="55%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#0a0e17">
+        <animate attributeName="stop-color" values="#0a0e17;#0c1424;#0a0e17" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1f6feb"/>
+      <stop offset="50%" stop-color="#58a6ff"/>
+      <stop offset="100%" stop-color="#79c0ff"/>
+    </linearGradient>
+
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1f6feb" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#58a6ff" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#1f6feb" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1f6feb" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#1f6feb" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1b2436" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="260" fill="url(#bgGrad)"/>
+  <rect width="1200" height="260" fill="url(#grid)" opacity="0.5"/>
+
+  <circle cx="1040" cy="70" r="160" fill="url(#glow)">
+    <animate attributeName="r" values="150;175;150" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="140" cy="220" r="140" fill="url(#glow)">
+    <animate attributeName="r" values="120;150;120" dur="7s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- floating code brackets -->
+  <text x="1080" y="55" font-family="JetBrains Mono, Consolas, monospace" font-size="34" fill="#1f6feb" opacity="0.55">
+    &lt;/&gt;
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -10; 0 0" dur="4s" repeatCount="indefinite"/>
+  </text>
+  <text x="60" y="60" font-family="JetBrains Mono, Consolas, monospace" font-size="26" fill="#58a6ff" opacity="0.45">
+    { }
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 8; 0 0" dur="5s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Name -->
+  <text x="60" y="115" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="46" font-weight="700" fill="#e6edf3">
+    Mohamed Ehab
+    <tspan fill="url(#accentGrad)"> Mohy El-Din</tspan>
+  </text>
+
+  <!-- Role -->
+  <text x="62" y="152" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="500" fill="#8b949e">
+    .NET Backend Developer&#160;&#160;·&#160;&#160;Clean Architecture&#160;&#160;·&#160;&#160;ASP.NET Core &amp; EF Core
+  </text>
+
+  <!-- animated underline -->
+  <rect x="62" y="172" width="0" height="3" rx="1.5" fill="url(#lineGrad)">
+    <animate attributeName="width" values="0;520;520;0" keyTimes="0;0.4;0.8;1" dur="4s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- tagline -->
+  <text x="62" y="205" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#6e7681">
+    Building scalable, production-ready backend systems — one commit at a time.
+  </text>
+
+  <!-- bottom accent bar -->
+  <rect x="0" y="256" width="1200" height="4" fill="url(#accentGrad)"/>
+</svg>
