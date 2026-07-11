@@ -258,6 +258,43 @@ public class Developer
 <tr>
 <td width="100%">
 
+### 💬 ChatApp — *Real-Time Chat Platform*
+
+<div align="center">
+
+![C#](https://img.shields.io/badge/-C%23-68217A?style=flat-square&logo=csharp&logoColor=white)
+![.NET 10](https://img.shields.io/badge/-.NET_10-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![SignalR](https://img.shields.io/badge/-SignalR-512BD4?style=flat-square)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![React 19](https://img.shields.io/badge/-React_19-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Tailwind](https://img.shields.io/badge/-Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![JWT](https://img.shields.io/badge/-JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
+
+</div>
+
+> A full-stack real-time messaging platform built with .NET 10 Minimal API, SignalR, PostgreSQL, and a React 19 frontend with PWA push notifications.
+
+- **Real-Time Engine:** Built a **SignalR WebSocket hub** (`/hub/chat`) with automatic reconnection, instant bidirectional messaging, and paginated message history via REST.
+- **Authentication & Security:** Implemented **ASP.NET Core Identity + JWT** with HttpOnly refresh token rotation (XSS-safe), rate limiting, CSP headers, HTML sanitization, and CORS whitelist policy.
+- **PWA Push Notifications:** Integrated **Web Push API** with VAPID authentication — notifications broadcast to all users except the sender, with automatic expired-subscription cleanup.
+- **Cloud-Native Deployment:** Containerized with **Docker**, deployed on **Railway.app** (backend) and **Cloudflare Pages** (frontend) with OpenAPI 3.1 + Scalar interactive docs.
+- **Architecture:** Clean separation between API endpoints, SignalR hubs, services, and data layer — fully versioned (`/api/v1/`) with FluentValidation input validation.
+
+<div align="center">
+
+<a href="https://github.com/Mohamed-ehab-mohy/ChatApp">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Mohamed-ehab-mohy&repo=ChatApp&theme=radical&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=1f6feb" alt="ChatApp" />
+</a>
+
+</div>
+
+</td>
+</tr>
+<tr>
+<td width="100%">
+
 ### 🏋️ Gym Management System — *SaaS Enterprise Web Application*
 
 <div align="center">
