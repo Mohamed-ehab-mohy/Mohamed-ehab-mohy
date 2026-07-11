@@ -63,7 +63,6 @@ public class Developer
     public string Name         => "Mohamed Ehab Mohy El-Din";
     public string Role         => ".NET Backend Developer";
     public string Location     => "Alexandria, Egypt 🇪🇬";
-    public string Education    => "B.Sc. Business Administration — Alexandria University (Final Year, 2027)";
 
     public string[] Focus      => { "Building production-grade backend systems with Clean Architecture" };
     public string[] Stack      => { "ASP.NET Core", "EF Core", "SQL Server", "PostgreSQL", "Docker" };
