@@ -1,0 +1,42 @@
+<svg width="1200" height="80" viewBox="0 0 1200 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0d1117" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#1f6feb" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#58a6ff" stop-opacity="0.8"/>
+      <stop offset="70%" stop-color="#1f6feb" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="waveGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0d1117" stop-opacity="0"/>
+      <stop offset="40%" stop-color="#79c0ff" stop-opacity="0.3"/>
+      <stop offset="60%" stop-color="#79c0ff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="waveGlow">
+      <feGaussianBlur stdDeviation="1.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Primary wave -->
+  <path fill="url(#waveGrad)" opacity="0.6" filter="url(#waveGlow)">
+    <animate attributeName="d" dur="10s" repeatCount="indefinite"
+      values="
+        M0,40 C200,65 400,15 600,40 C800,65 1000,15 1200,40 L1200,0 L0,0 Z;
+        M0,35 C200,10 400,65 600,35 C800,10 1000,65 1200,35 L1200,0 L0,0 Z;
+        M0,40 C200,65 400,15 600,40 C800,65 1000,15 1200,40 L1200,0 L0,0 Z" />
+  </path>
+
+  <!-- Secondary wave -->
+  <path fill="url(#waveGrad2)" opacity="0.3">
+    <animate attributeName="d" dur="8s" repeatCount="indefinite"
+      values="
+        M0,45 C300,20 600,60 900,35 C1050,25 1150,45 1200,40 L1200,0 L0,0 Z;
+        M0,40 C300,60 600,20 900,45 C1050,55 1150,35 1200,40 L1200,0 L0,0 Z;
+        M0,45 C300,20 600,60 900,35 C1050,25 1150,45 1200,40 L1200,0 L0,0 Z" />
+  </path>
+</svg>
