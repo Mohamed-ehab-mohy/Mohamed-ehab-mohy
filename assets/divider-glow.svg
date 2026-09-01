@@ -1,13 +1,12 @@
 <svg width="1200" height="8" viewBox="0 0 1200 8" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="dgGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0d1117" stop-opacity="0"/>
-      <stop offset="15%" stop-color="#1f6feb" stop-opacity="0.6"/>
-      <stop offset="35%" stop-color="#58a6ff"/>
-      <stop offset="50%" stop-color="#79c0ff"/>
-      <stop offset="65%" stop-color="#58a6ff"/>
-      <stop offset="85%" stop-color="#1f6feb" stop-opacity="0.6"/>
-      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#0a0f1c" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#10b981" stop-opacity="0.6"/>
+      <stop offset="40%" stop-color="#06b6d4"/>
+      <stop offset="60%" stop-color="#0ea5e9"/>
+      <stop offset="80%" stop-color="#6366f1" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#0a0f1c" stop-opacity="0"/>
     </linearGradient>
     <filter id="glow">
       <feGaussianBlur stdDeviation="2" result="coloredBlur"/>

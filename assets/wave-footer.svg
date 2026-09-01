@@ -1,17 +1,17 @@
 <svg width="1200" height="80" viewBox="0 0 1200 80" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0d1117" stop-opacity="0"/>
-      <stop offset="30%" stop-color="#1f6feb" stop-opacity="0.6"/>
-      <stop offset="50%" stop-color="#58a6ff" stop-opacity="0.8"/>
-      <stop offset="70%" stop-color="#1f6feb" stop-opacity="0.6"/>
-      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#0a0f1c" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#10b981" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#06b6d4" stop-opacity="0.8"/>
+      <stop offset="70%" stop-color="#0ea5e9" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#0a0f1c" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="waveGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0d1117" stop-opacity="0"/>
-      <stop offset="40%" stop-color="#79c0ff" stop-opacity="0.3"/>
-      <stop offset="60%" stop-color="#79c0ff" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#0a0f1c" stop-opacity="0"/>
+      <stop offset="40%" stop-color="#6366f1" stop-opacity="0.3"/>
+      <stop offset="60%" stop-color="#6366f1" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0a0f1c" stop-opacity="0"/>
     </linearGradient>
     <filter id="waveGlow">
       <feGaussianBlur stdDeviation="1.5" result="coloredBlur"/>
