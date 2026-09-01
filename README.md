@@ -291,7 +291,7 @@ public class Developer
 
 <div align="center">
 <a href="https://github.com/Mohamed-ehab-mohy/ECommerce">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Mohamed-ehab-mohy&repo=ECommerce&theme=radical&hide_border=true&bg_color=0a0f1c&title_color=06B6D4&text_color=f8fafc&icon_color=10b981" alt="E-Commerce Enterprise Backend" />
+  <img alt="View Repository" src="https://img.shields.io/badge/🚀_View_Repository-06B6D4?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 </div>
 
@@ -320,7 +320,7 @@ public class Developer
 
 <div align="center">
 <a href="https://github.com/Mohamed-ehab-mohy/ChatApp">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Mohamed-ehab-mohy&repo=ChatApp&theme=radical&hide_border=true&bg_color=0a0f1c&title_color=06B6D4&text_color=f8fafc&icon_color=10b981" alt="ChatApp" />
+  <img alt="View Repository" src="https://img.shields.io/badge/🚀_View_Repository-06B6D4?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 </div>
 
@@ -349,7 +349,7 @@ public class Developer
 
 <div align="center">
 <a href="https://github.com/Mohamed-ehab-mohy/GymManagementSystem">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Mohamed-ehab-mohy&repo=GymManagementSystem&theme=radical&hide_border=true&bg_color=0a0f1c&title_color=06B6D4&text_color=f8fafc&icon_color=10b981" alt="Gym Management System" />
+  <img alt="View Repository" src="https://img.shields.io/badge/🚀_View_Repository-06B6D4?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 </div>
 
@@ -425,8 +425,8 @@ Network Protocols, Linux Administration, Security.
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=Mohamed-ehab-mohy&show_icons=true&theme=radical&hide_border=true&bg_color=0a0f1c&title_color=06B6D4&icon_color=10b981&text_color=f8fafc&count_private=true" alt="GitHub Stats" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mohamed-ehab-mohy&layout=compact&theme=radical&hide_border=true&bg_color=0a0f1c&title_color=06B6D4&text_color=f8fafc&langs_count=8" alt="Top Languages" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Mohamed-ehab-mohy&theme=radical" alt="GitHub Stats" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Mohamed-ehab-mohy&theme=radical" alt="Top Languages" />
 
 </div>
 
@@ -438,7 +438,7 @@ Network Protocols, Linux Administration, Security.
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Mohamed-ehab-mohy&theme=github-compact&bg_color=0a0f1c&color=06B6D4&line=10b981&point=0ea5e9&hide_border=true&area=true" alt="Activity Graph" width="100%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Mohamed-ehab-mohy&theme=radical&utcOffset=3" alt="Productive Time" />
 
 </div>
 
